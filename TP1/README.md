@@ -271,4 +271,3 @@ I confirm that I remain responsible for all content included in this project. Wh
 The AI-assisted exercise was included as an additional learning component to explore the role of AI in software development. Despite the use of AI tools, all generated content was reviewed, corrected, and fully understood before being accepted.
 
 <!-- List all AI tools used (e.g., ChatGPT , Copilot , etc .) , how they were used , and confirmation that you remain responsible for all content . -->
-# TP1 
