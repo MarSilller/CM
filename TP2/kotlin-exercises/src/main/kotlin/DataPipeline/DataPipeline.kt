@@ -23,7 +23,7 @@ class Pipeline {
     }
 
     fun describe(){
-        var counter = 0
+        var counter = 1
         for (stage in stages){
             println("Stage $counter: ${stage.name}")
             counter++
