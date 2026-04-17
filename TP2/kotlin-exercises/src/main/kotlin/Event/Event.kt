@@ -35,7 +35,9 @@ fun List<Event>.totalSpent(username: String): Double { //returns Double of the t
 }
 
 fun processEvents(events: List<Event>, handler: (Event) -> Unit) { //receives the List of events and a lambda function
-    events.forEach{event -> handler(event)} //for each event applies whatever the lambda had in mind (cannot alter elements)
+    for (event in events) {
+        handler(event)
+    }
 }
 
 fun main() {
