@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Cool Weather APP</string>
+    <string name="lon">Longitude</string>
+    <string name="lat">Latitude</string>
+    <string name="sea">Nível Pressão Mar</string>
+    <string name="windd">Direção Vento</string>
+    <string name="winds">Velocidade Vento</string>
+    <string name="temp">Temperatura</string>
+    <string name="time">Horário</string>
+    <string name="but">Atualizar</string>
+    <string name="swi">Tema</string>
+    <string name="ht1">Introduza Latitude</string>
+    <string name="ht2">Introduza Latitude</string>
+</resources>

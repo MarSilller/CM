@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <attr name="cardBackgroundColor" format="color" />
+    <attr name="buttonBackgroundTint" format="color" />
+    <attr name="textBackgroundColor" format="color" />
+
+    <!-- Base theme -->
+    <style name="Theme.CoolWeatherAPP"
+        parent="Theme.MaterialComponents.DayNight.NoActionBar">
+
+        <item name="colorPrimary">@color/purple_500</item>
+        <item name="colorPrimaryVariant">@color/purple_700</item>
+        <item name="colorOnPrimary">@color/white</item>
+
+        <item name="colorSecondary">@color/teal_200</item>
+        <item name="colorSecondaryVariant">@color/teal_700</item>
+        <item name="colorOnSecondary">@color/black</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+
+        <!-- Important -->
+        <item name="background">@color/viewBG</item>
+        <item name="android:textColor">@color/WeatherLabel</item>
+    </style>
+
+
+    <!-- Pixel 3 DAY -->
+    <style name="Theme.Day" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherappbk</item>
+        <item name="cardBackgroundColor">@color/purple_700trans</item>
+        <item name="buttonBackgroundTint">@color/purple_500</item>
+        <item name="textBackgroundColor">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.Day.Land" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherappbkland</item>
+        <item name="cardBackgroundColor">@color/purple_700trans</item>
+        <item name="buttonBackgroundTint">@color/purple_500</item>
+        <item name="textBackgroundColor">@color/purple_700</item>
+    </style>
+
+    <!-- Pixel 3 NIGHT -->
+    <style name="Theme.Night" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherappbk_night</item>
+        <item name="cardBackgroundColor">@color/teal_700trans</item>
+        <item name="buttonBackgroundTint">@color/teal_200</item>
+        <item name="textBackgroundColor">@color/teal_700</item>
+    </style>
+
+    <style name="Theme.Night.Land" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherappbkland_night</item>
+        <item name="cardBackgroundColor">@color/teal_700trans</item>
+        <item name="buttonBackgroundTint">@color/teal_200</item>
+        <item name="textBackgroundColor">@color/teal_700</item>
+    </style>
+
+    <!-- Pixel Tablet DAY -->
+    <style name="Theme.Day.Tablet" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherapptabletbg</item>
+        <item name="cardBackgroundColor">@color/purple_700trans</item>
+        <item name="buttonBackgroundTint">@color/purple_500</item>
+        <item name="textBackgroundColor">@color/purple_700</item>
+    </style>
+
+    <style name="Theme.Day.Land.Tablet" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherapptabletbgland</item>
+        <item name="cardBackgroundColor">@color/purple_700trans</item>
+        <item name="buttonBackgroundTint">@color/purple_500</item>
+        <item name="textBackgroundColor">@color/purple_700</item>
+    </style>
+
+    <!-- Pixel Tablet NIGHT -->
+    <style name="Theme.Night.Tablet" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherapptabletbg_night</item>
+        <item name="cardBackgroundColor">@color/teal_700trans</item>
+        <item name="buttonBackgroundTint">@color/teal_200</item>
+        <item name="textBackgroundColor">@color/teal_700</item>
+    </style>
+
+    <style name="Theme.Night.Land.Tablet" parent="Theme.CoolWeatherAPP">
+        <item name="android:windowBackground">@drawable/weatherapptabletbgland_night</item>
+        <item name="cardBackgroundColor">@color/teal_700trans</item>
+        <item name="buttonBackgroundTint">@color/teal_200</item>
+        <item name="textBackgroundColor">@color/teal_700</item>
+
+    </style>
+
+</resources>

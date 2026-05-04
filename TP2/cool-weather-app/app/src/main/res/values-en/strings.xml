@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Cool Weather APP</string>
+    <string name="lon">Longitude</string>
+    <string name="lat">Latitude</string>
+    <string name="sea">Sea Level Pressure</string>
+    <string name="windd">Wind Direction</string>
+    <string name="winds">Wind Speed</string>
+    <string name="temp">Temperature</string>
+    <string name="time">Time</string>
+    <string name="but">Update</string>
+    <string name="swi">Theme</string>
+    <string name="ht1">Enter Latitude</string>
+    <string name="ht2">Enter Latitude</string>
+</resources>

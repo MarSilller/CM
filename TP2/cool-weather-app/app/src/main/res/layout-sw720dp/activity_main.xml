@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardView"
+        android:layout_width="760dp"
+        android:layout_height="534dp"
+        android:layout_margin="20dp"
+        app:cardBackgroundColor="?attr/cardBackgroundColor"
+        app:cardCornerRadius="25dp"
+        app:cardElevation="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/lat"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView14"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="@string/ht1"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textColor="@color/black"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/lon"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <EditText
+                        android:id="@+id/textView12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@color/white"
+                        android:hint="@string/ht2"
+                        android:inputType="numberDecimal|numberSigned"
+                        android:textColor="@color/black"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView9"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/sea"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:id="@+id/textView10"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/windd"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView8"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/winds"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/temp"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginVertical="10dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="30dp"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="@string/time"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="start">
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="?attr/textBackgroundColor"
+                        android:padding="5dp"
+                        android:shadowColor="@color/black"
+                        android:shadowDx="15"
+                        android:shadowDy="15"
+                        android:shadowRadius="15"
+                        android:text="TextView"
+                        android:textColor="@color/white"
+                        android:textSize="33sp" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="227dp"
+        android:layout_height="106dp"
+        android:backgroundTint="?attr/buttonBackgroundTint"
+        android:text="@string/but"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/cardView"
+        app:layout_constraintVertical_bias="0.341" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="352dp"
+        android:layout_height="359dp"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.52"
+        app:srcCompat="@drawable/clear_day" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="182dp"
+        android:layout_height="115dp"
+        android:layout_marginTop="4dp"
+        android:text="@string/swi"
+        android:textSize="28sp"
+        android:thumb="@drawable/switchtablet"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
