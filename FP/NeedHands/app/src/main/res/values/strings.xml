@@ -1,0 +1,147 @@
+﻿<resources>
+    <string name="app_name">NeedHands</string>
+    
+    <!-- Welcome Screen -->
+    <string name="welcome_title">Welcome to NeedHands</string>
+    <string name="welcome_subtitle">Short-term hands for any event.</string>
+    <string name="login_tab">Login</string>
+    <string name="register_tab">Register</string>
+    <string name="email_label">Email</string>
+    <string name="password_label">Password</string>
+    <string name="confirm_password_label">Confirm Password</string>
+    <string name="name_label">Name</string>
+    <string name="role_recruiter">I am a Recruiter</string>
+    <string name="role_worker">I am a Worker</string>
+    <string name="signup_prompt">Don\'t have an account? Sign up</string>
+    <string name="signin_prompt">Already have an account? Sign in</string>
+    <string name="about_title">About</string>
+    <string name="about_needhands_title">About NeedHands</string>
+    <string name="about_description">NeedHands is an app developed to help people who have difficulty finding job be able to be contacted by any recruiter that may need workers with especific qualities to help with a certain event/party in a more efficient way. This app is currently designed to work only in the country of Portugal.</string>
+    <string name="author">Author: Martim Ceirão</string>
+    <string name="student_number">Student Number: 15316</string>
+    <string name="close">Close</string>
+
+    <!-- Error & Success Messages -->
+    <string name="error_fill_fields">Please fill in all fields</string>
+    <string name="error_password_mismatch">Passwords do not match</string>
+    <string name="error_password_length">Password must be at least 6 characters</string>
+    <string name="error_invalid_email">Invalid email</string>
+    <string name="error_no_user">No user logged in</string>
+    <string name="error_update_password_failed">Failed to update password</string>
+    <string name="success_password_updated">Password updated successfully</string>
+    <string name="success_profile_saved">Profile saved successfully!</string>
+    <string name="error_invalid_age">Please enter a valid working age (16+)</string>
+    <string name="error_no_qualifications">Please select at least one qualification.</string>
+
+    <!-- Worker Home & Profile -->
+    <string name="worker_home_title">My Profile Preview</string>
+    <string name="help">Help</string>
+    <string name="logout">Logout</string>
+    <string name="chats">Chats</string>
+    <string name="worker_home_description">This is how recruiters see you</string>
+    <string name="boost">Boost</string>
+    <string name="boosted">Boosted</string>
+    <string name="worker_profile_not_setup">You haven\'t set up your profile yet.</string>
+    <string name="tap_to_edit">Tap on your card to edit details.</string>
+    <string name="boost_account_title">Boost Account</string>
+    <string name="boost_account_desc">Do you wish to Boost your account for a higher chance to get contacted?</string>
+    <string name="buy">Buy</string>
+    <string name="cancel">Cancel</string>
+    <string name="help_worker_title">Help - Worker</string>
+    <string name="help_worker_desc">If the user chooses to become a worker, after registering and logging in, they must edit their card to include all of the important information a recruiter needs to know as well as having the option to boost their card to stand out more and having a better chance of getting the job. The worker can also open the chats page to talk with the recruites and agree to the time and place.</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="profile_image_url_title">Profile Image URL</string>
+    <string name="image_url_label">Image URL</string>
+    <string name="add">Add</string>
+    <string name="profile_picture_desc">Profile Picture</string>
+    <string name="upload_photo_desc">Upload Photo</string>
+    <string name="add_photo">Add Photo</string>
+    <string name="worker_details">Worker Details</string>
+    <string name="example_name">e.g. John Doe</string>
+    <string name="age_label">Age</string>
+    <string name="example_age">e.g. 25</string>
+    <string name="gender_label">Gender</string>
+    <string name="gender_male">Male</string>
+    <string name="gender_female">Female</string>
+    <string name="location_label">Location</string>
+    <string name="select_location">Select a location</string>
+    <string name="availability_label">Availability</string>
+    <string name="availability_immediate">Immediate</string>
+    <string name="availability_flexible">Flexible</string>
+    <string name="availability_weekends">Weekends only</string>
+    <string name="choose_qualifications">Choose Qualifications</string>
+    <string name="choose_qualifications_desc">Tap block badges to select active roles.</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="error">Error</string>
+    
+    <!-- Qualifications -->
+    <string name="qual_kitchen">Kitchen assistant</string>
+    <string name="qual_waiter">Waiter</string>
+    <string name="qual_bartender">Bartender</string>
+    <string name="qual_cleaner">Event cleaner</string>
+    <string name="qual_doorman">Doorman/bouncer</string>
+    <string name="qual_setup">Event setup crew</string>
+
+    <!-- Recruiter Home -->
+    <string name="help_recruiter_title">Help - Recruiter</string>
+    <string name="help_recruiter_desc">If the user chooses to become a recruiter they can scroll and search, with the help of filters, for an appropriate worker for the job and enter a conversation. Inside this conversation the recruiter must edit the calendar to state the time it will take place, and how long, and the recruiter must also state the location in the chat itself.</string>
+    <string name="find_hands_title">Find Short-Term Hands</string>
+    <string name="find_hands_desc">Browse active workers available for shifts now.</string>
+    <string name="search_placeholder">Search by name, role, location...</string>
+    <string name="clear">Clear</string>
+    <string name="toggle_filters">Toggle Filters</string>
+    <string name="all_locations">All Locations</string>
+    <string name="any_availability">Any Availability</string>
+    <string name="qualifications_label">Qualifications</string>
+    <string name="any_role">Any Role</string>
+    <string name="no_workers_found">No workers found matching filters.</string>
+
+    <!-- Settings -->
+    <string name="settings">Settings</string>
+    <string name="account_details">Account Details</string>
+    <string name="email_colon">Email:</string>
+    <string name="password_colon">Password:</string>
+    <string name="new_password_colon">New Password:</string>
+    <string name="change_password">Change Password</string>
+    <string name="confirm_password_change">Confirm Password Change</string>
+    <string name="confirm_password_change_desc">Are you sure you want to change the Password?</string>
+    <string name="yes">Yes</string>
+
+    <!-- Chat -->
+    <string name="your_chats">Your Chats</string>
+    <string name="no_messages">No messages yet.</string>
+    <string name="chat_title">Chat</string>
+    <string name="confirm_shift">Confirm Shift</string>
+    <string name="shift_confirmed">Shift Confirmed!</string>
+    <string name="confirm_this_shift">Confirm this shift?</string>
+    <string name="confirm_this_shift_desc">Are you sure you want to confirm this shift? This action cannot be undone.</string>
+    <string name="confirm">Confirm</string>
+    <string name="schedule_shift">Schedule Shift</string>
+    <string name="date_time_colon">Date &amp; Time:</string>
+    <string name="location_colon">Location:</string>
+    <string name="type_message">Type a message...</string>
+    
+    <!-- Top Bar -->
+    <string name="themes">Themes</string>
+    <string name="back">Back</string>
+    
+    <string name="find_short_term_hands">Find Short-Term Hands</string>
+    <string name="browse_active_workers">Browse active workers available for shifts now.</string>
+    <string name="messages_title">Messages</string>
+    <string name="default_profile">Default Profile</string>
+    <string name="tap_to_view_conversation">Tap to view conversation</string>
+    <string name="job_chat_title">Job Chat</string>
+    <string name="shift_coordination_details">Shift Coordination details</string>
+    <string name="end_time">Hora de Saída</string>
+    <string name="start_time">Hora de Entrada</string>
+    <string name="date">Date</string>
+    <string name="time">Time</string>
+    <string name="edit">Edit</string>
+    <string name="read_only">Read-Only</string>
+    <string name="plan_shift_details">Plan shift details...</string>
+    <string name="send">Send</string>
+    <string name="error_invalid_credentials">Invalid Email/Password</string>
+    <string name="error_user_is_worker">This user is a worker</string>
+    <string name="error_user_is_recruiter">This user is a recruiter</string>
+</resources>
+

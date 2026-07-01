@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "135963250705",
+    "project_id": "needhands-a0354",
+    "storage_bucket": "needhands-a0354.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:135963250705:android:405e2d2e2e013e5bd7a1b0",
+        "android_client_info": {
+          "package_name": "com.example.needhands"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7zJMczEGxj2o3I88n1GYnadk7OS-OGPE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
